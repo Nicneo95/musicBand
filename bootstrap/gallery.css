@@ -1,0 +1,142 @@
+/* extra small screen <576 */
+@media screen and (max-width: 576px) {
+    .nav-link {
+      text-align: center;
+    }
+    .heading2{
+      font-size: 55px;
+      position: relative;
+    }
+    .heading4{
+       font-size: 17px;
+       position: relative;
+    }
+    .footer-social{
+      padding-left: 140px;
+    }
+  } 
+  
+  /* small screen 576 */
+  @media screen and (min-width: 576px) {
+    .nav-link {
+      text-align: center;
+    }
+    .heading2{
+        font-size: 55px;
+        position: relative;
+    }
+    .heading4{
+        font-size: 17px;
+        position: relative;
+    }
+    .footer-social{
+      padding-left: 145px;
+    }
+  }  
+  
+  /* medium screen 768 */
+  @media screen and (min-width: 768px) {
+    h1.display-4{
+      font-size: 110px;
+    }
+    .footer-social{
+      padding-left: 230px;
+    }
+  }
+  
+  /* large screen 992 */
+  /* @media screen and (min-width: 992px) {
+    h1.display-4{
+      font-size: 126px;
+    }
+  } */
+
+
+
+body{
+    background-image: url(../image/galleryBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.blog-text{
+    position: relative;
+    color: white;
+    font-family: "Lekton", sans-serif;
+    text-align: left;
+    font-size: 30px;
+    top: 180px;
+}
+
+.heading2{
+    color: white;
+    font-weight: 400;
+    font-family: 'Lekton', sans-serif;
+    font-size: 126px;
+    line-height: 130px;
+    font-style: normal;
+}
+
+.heading4{
+    font-family: 'Lekton', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.container-gallery{
+  height: 1000px;
+  margin-top: 250px;
+  padding-bottom: 20px;
+  background-color: #181818;
+}
+
+.gallery{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.gallery{
+  transition: 0.25s ease;
+}
+
+.row > img:hover{ 
+    transform: translate3d(0px, -10px, 0px);
+    cursor: pointer;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .footer-social{
+  padding-left: 230px;
+} */
+
+html, body {
+  height: 100%;
+  background-color: #181818;
+  color: aliceblue;
+  align-items: center;
+  
+}
+
+#container{
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+#footer {
+  position: relative;
+  height:100px;
+  margin-top: -100px ;
+  clear: both;
+}

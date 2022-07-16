@@ -1,0 +1,79 @@
+body{
+    background-image: url(../image/blogBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.blog-text{
+    position: relative;
+    color: white;
+    font-family: "Lekton", sans-serif;
+    text-align: left;
+    font-size: 30px;
+    top: 180px;
+}
+
+.heading2{
+    color: white;
+    font-weight: 400;
+    font-family: 'Lekton', sans-serif;
+    font-size: 126px;
+    line-height: 130px;
+    font-style: normal;
+}
+
+.heading4{
+    font-family: 'Lekton', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blogCard-container{
+    position: relative;
+    top: 200px;
+    /* padding: 50px; */
+    /* padding-bottom: 100px; */
+    /* gap: 10px; */
+    
+} 
+
+.blogCard-container .card{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    /* background-color: #d1d1d1; */
+    background-color: #1b1b1b;
+    /* opacity: 90%; */
+    color: white;
+    padding: 51px 13px 49px; 
+}
+
+.blogCard-container .card-title{
+    font-family: 'Lekton', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+  
+.blogCard-container .card-text{
+    font-family: 'Lekton', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-blog{
+    margin-top: 200px;
+}
+
+.footer-social-link{
+    padding-left: 50px;
+    align-items: center;
+    color: #8c8c8c;
+  }

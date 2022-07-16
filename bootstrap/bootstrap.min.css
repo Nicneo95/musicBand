@@ -1,0 +1,333 @@
+/* extra small screen <576 */
+@media screen and (max-width: 576px) {
+  .nav-link {
+    text-align: center;
+  }
+  #jumba_text{
+    position: relative;
+    /* top: 20px; */
+    left: 100px;
+    bottom: 20px;
+  } 
+  h1.display-4{
+    font-size: 55px;
+    position: relative;
+  }
+  h2.heading2{
+    font-size: 55px;
+    
+  }
+  h4.heading4{
+    font-size: 17px;
+    
+  }
+} 
+
+/* small screen 576 */
+@media screen and (min-width: 576px) {
+  .nav-link {
+    text-align: center;
+  }
+  #jumba_text{
+    position: relative;
+    /* top: 20px; */
+    left: 100px; 
+    bottom: 20px;
+  } 
+  h1.display-4{
+    font-size: 55px;
+  }
+  h2.heading2{
+    font-size: 55px;
+  }
+  h4.heading4{
+    font-size: 17px;
+  } 
+}
+   
+
+/* medium screen 768 */
+@media screen and (min-width: 768px) {
+  h1.display-4{
+    font-size: 110px;
+  }
+  h2.heading2{
+    font-size: 110px;
+  }
+  h4.heading4{
+    font-size: 20px;
+  } 
+}
+
+/* large screen 992 */
+@media screen and (min-width: 992px) {
+  h1.display-4{
+    font-size: 126px;
+  }
+  h2.heading2{
+    font-size: 126px;
+  }
+  h4.heading4{
+    font-size: 20px;
+  } 
+}
+
+/* --------------------------------------------------- NavBar ----------------------------------------------- */
+/* logo padding */
+.navbar-brand{
+  padding-left: 10px;
+}
+
+
+/* change colour for social link button */
+.nav-link {
+  color: #8c8c8c;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-brand > label {
+  padding-left: 10px;
+}
+
+/* -------------------------------------------------End of NavBar ---------------------------------------------*/
+
+
+
+/* --------------------------------------------------- Page 1 ----------------------------------------------- */
+#jumba_text {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  color: white;
+  margin-left: -150px;
+  /* padding: 30px; */
+  font-family: "Lekton", sans-serif;
+  text-align: left;
+  font-size: 30px;
+}
+
+.display-4 {
+  font-size: 126px;
+  font-weight: bolder;
+}
+.lead {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.button-effects{
+  font-family: "Lekton", sans-serif;
+  padding: 5px;
+  font-size: 30px;
+  border: 2px black solid;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #495057;
+  transition: 0.25s;
+}
+
+.button-effects:hover {
+  background-color: #333;
+  color: white;
+  transform: translate3d(0px, -5px, 0px);
+  cursor: pointer;
+}
+
+.bg-001 {
+  height: 100vh;
+  background-image: url(../image/index1.jpg);
+  background-size: cover;
+}
+
+.bg-002 {
+  height: 100vh;
+  background-image: url(../image/index2.jpg);
+  background-size: cover;
+}
+
+.bg-003 {
+  height: 100vh;
+  background-image: url(../image/index3.jpg);
+  background-size: cover;
+}
+
+/* ------------------------------------------------- End Page 1 ---------------------------------------------*/
+
+
+
+/* --------------------------------------------------- Page 2 ----------------------------------------------- */
+.page-2 {
+  background-image: url(../image/image_4.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* .gallery-text{
+  position: relative;
+} */
+
+#jumba_text_2 {
+  position: relative;
+  color: white;
+  /* padding: 30px; */
+  font-family: "Lekton", sans-serif;
+  text-align: right;
+  font-size: 30px;
+  /* margin-top: 100px; */
+  top: 100px;
+}
+
+.page-3 {
+  background-image: url(../image/image_5.jpg);
+  background-size: cover;
+  /* border: solid red; */
+}
+
+/* .update-text{
+  position: relative;
+} */
+
+#jumba_text_3 {
+  position: relative;
+  color: white;
+  padding: 30px;
+  font-family: "Lekton", sans-serif;
+  text-align: left;
+  font-size: 30px;
+  /* margin-top: 50px;
+  margin-left: 50px; */
+  top: 50px;
+  left: 50px;
+}
+
+.update {
+  display: flex;
+}
+
+.card-container{
+  position: relative;
+  margin-top: 20px;
+  padding: 50px;
+  /* padding-bottom: 100px; */
+  /* gap: 10px; */
+  
+} 
+.card-container .card{
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  /* background-color: #d1d1d1; */
+  background-color: #1b1b1b;
+  /* opacity: 90%; */
+  color: white;
+  padding: 51px 13px 49px; 
+}
+
+
+.card-container .card-title{
+  font-family: 'Lekton', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card-container .card-text{
+  font-family: 'Lekton', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+
+.separator.small.left{
+  height: 2px;
+  width: 24px;
+  margin: 12px 0 26px;
+}
+
+.post_info_author{
+  font-family: 'Lekton', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+
+
+.post_info_date{
+  font-family: 'Lekton', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  gap: 10px;
+}   
+
+.card-footer{
+  border-color: #494949;
+  padding: 28px 33px 38px;
+}
+
+#blog-button{
+  padding-left: 130px;
+  padding-bottom: 100px;
+}
+
+.text-muted{
+  color: white !important;
+}
+/* ------------------------------------------------- End Page 2 ---------------------------------------------*/
+
+.page-4{
+  background-color:#181818;
+  background-size: cover;
+}
+
+#jumba_text_4 {
+  position: relative;
+  color: white;
+  font-family: "Lekton", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  top: 50px;
+}
+
+
+.page-5{
+  background-color:#181818f4;
+  background-size: cover;
+  height: 1000 px;
+  width: 100%;
+}
+
+#jumba_text_5 {
+  position: relative;
+  color: white;
+  /* padding: 30px; */
+  font-family: "Lekton", sans-serif;
+  text-align: center;
+  /* margin-top: 50px;
+  margin-left: 50px; */
+  /* left: 50px; */
+}
+
+.feature-video{
+  width: 100%;
+}
+
+.section-video{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+}
+
+
+.footer-social-link{
+  padding-left: 50px;
+  align-items: center;
+  color: #8c8c8c;
+}

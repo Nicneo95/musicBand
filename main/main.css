@@ -1,0 +1,9 @@
+/* overwrite bootstrap colour */
+.bg-dark{
+    background-color: black !important;
+}
+
+/* overwrite fontawesome hover colour */
+a:hover {
+    color: #8c8c8c8d !important;
+  }
