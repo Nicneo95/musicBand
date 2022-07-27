@@ -1,5 +1,5 @@
 # Static-front-end-site
-## musicBandd
+## MusicBand
 <img src="/image/musicband.png" style="display: block">
 
 # URL to live website
