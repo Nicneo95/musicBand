@@ -1,6 +1,6 @@
 # Static-front-end-site
 ## musicBandd
-<img src="/images/musicband.png" style="display: block">
+<img src="/image/musicband.png" style="display: block">
 <br>
 # URL to live website
 [musicbandd.netlify.app](musicbandd.netlify.app)
